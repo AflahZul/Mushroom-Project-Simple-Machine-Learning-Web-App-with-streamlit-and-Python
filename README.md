@@ -12,7 +12,7 @@ Key features:
 - Visualizations for performance evaluation
 - Bootstrap toggle for Random Forest (bagging vs. pasting)
 
-![Example of binary classification of simple web app ](pic/Logistic Regression.png)
+![Screenshot of a Streamlit mushroom classification web app showing a logistic regression panel with a decision boundary plot and model controls; visible text includes Mushroom Classification and Logistic Regression; environment is a browser-like app interface with sidebar controls and performance metrics; neutral informative tone](<pic/Logistic Regression.png>)
 
 
 The dataset has 8124 samples with 22 categorical features, encoded numerically. Target: Edible (0) vs. Poisonous (1).
