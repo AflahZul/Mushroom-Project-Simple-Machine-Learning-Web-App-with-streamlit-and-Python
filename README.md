@@ -12,4 +12,21 @@ Key features:
 - Visualizations for performance evaluation
 - Bootstrap toggle for Random Forest (bagging vs. pasting)
 
+![Example of binary classification of simple web app ](pic/Logistic Regression.png)
+
+
 The dataset has 8124 samples with 22 categorical features, encoded numerically. Target: Edible (0) vs. Poisonous (1).
+
+# Data Preprocessing
+
+- All features are label-encoded (categorical to numeric).
+- 70/30 train-test split with stratification.
+- Note: Column name for target is 'class' (edible/poisonous). Update if your CSV uses 'type'.
+
+## Classifiers and Hyperparameters
+
+- **SVM**: C (regularization), kernel (rbf/linear), gamma (scale/auto).
+- **Logistic Regression**: C, max iterations.
+- **Random Forest**: Number of trees, max depth, min samples split/leaf, bootstrap (yes/no for bagging/pasting).
+
+Models achieve near-perfect accuracy on this dataset due to strong feature correlations (e.g., odor is a key predictor).
